@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+
 *{
-    background-color: #332941;
-    font-family: monospace;
+    background-color: #16161a;
 }
-p,a{
-    color: #F8E559;
+
+a{
+    text-decoration: none;
+    font-family: 'Oxanium';
+    font-size: large;
+    color: #16161a;
+    background-color: #F0EDCF;
 }
 
 h1,h2,h3,h4,h5,h6{
-    color: #864AF9;
+    text-align: center;
+    color: #F0EDCF;
+    font-family: 'Oxanium';
+}
+
+h1{
+    font-size: 300%;
+}
+
+hr{
+    border: 0;
+    height: 1.5px;
+    background-color: #0B60B0;
+}
+
+p{
+    font-family: 'Trispace';
+    color: #60c1f5;
+    font-size: 130%;
 }
