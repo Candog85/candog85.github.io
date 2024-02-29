@@ -38,8 +38,17 @@
 
 .body h2 {
   margin: 30px 10%;
+  width: auto;
   font-size: 225.5%;
   color: #f0edcf;
+}
+
+.body :visited{
+    color: #60c1f5;
+}
+
+.body :link{
+    color: #0b60b0;
 }
 
 .body p {
@@ -68,6 +77,14 @@ nav a {
   margin: 2px;
   border: 2.5px solid #0b60b0;
   border-radius: 10px;
+}
+
+nav :hover{
+    border: solid 3.5px #B05B0B;
+}
+
+nav :active{
+    border: solid 2.5px #60c1f5;
 }
 
 h1,
