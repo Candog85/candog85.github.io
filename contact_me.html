@@ -22,5 +22,28 @@
 
     </div>
     
+    <div class="body center">
+
+      <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+
+        <label for="email">
+          Email:
+        </label>
+
+        <input type="text" id="email" placeholder="Email">
+
+        <br><label for="message">
+          Message:
+        </label>
+
+        <input type="text" id="message" placeholder="Message">
+
+        <input name="send-to" value="myemail@steamcenter.org" hidden>
+
+       <br><input type="submit">
+
+      </form>
+    </div>
+  
   </body>
 </html>
