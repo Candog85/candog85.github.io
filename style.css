@@ -95,8 +95,10 @@ body {
 }
 
 #introtext{
-    margin: 0;
-    right: 0;
+    margin: 2px;
+    float: left;
+    width: 50%;
+    
 }
 
 .inputmessage{
@@ -179,6 +181,14 @@ input {
 
 #portrait {
   height: 350px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.containter {
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 h1,
