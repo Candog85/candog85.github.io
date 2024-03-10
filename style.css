@@ -5,7 +5,7 @@
   background-color: black;
 }
 
-html{
+html {
   height: 100%;
 }
 
@@ -32,13 +32,13 @@ body {
 
 .title h1 {
   color: #f0edcf;
-  font-size: 400%;
+  font-size: 90px;
   background: none;
   margin: 0px;
 }
 
 #subtitle {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .body {
@@ -46,94 +46,91 @@ body {
 }
 
 .body h2 {
-  margin: 30px 10%;
+  margin: 30px 0px;
   width: auto;
-  font-size: 225.5%;
+  font-size: 50px;
   color: #f0edcf;
 }
 
-.body :visited{
-    color: #60c1f5;
+.body :visited {
+  color: #60c1f5;
 }
 
-.body :link{
-    color: #0b60b0;
+.body :link {
+  color: #0b60b0;
 }
 
 .body p {
   color: #60c1f5;
-  font-size: 130%;
-  margin: 60px 20%;
+  font-size: 30px;
+  margin: 60px 0px;
 }
 
-.absolute{
-    position: absolute;
+.absolute {
+  position: absolute;
 }
 
-.relative{
-    position: relative;
+.relative {
+  position: relative;
 }
 
-.right{
-    float: right;
+.right {
+  float: right;
 }
 
-.left{
-    left: 0;
+.left {
+  left: 0;
 }
 
-.marginless{
-    margin: 0;
+.marginless {
+  margin: 0;
 }
 
-.formdiv:first-of-type{
-    margin-top: 60px;
+.formdiv:first-of-type {
+  margin-top: 60px;
 }
 
-.formdiv{
-    margin-top: 30px;
+.formdiv {
+  margin-top: 30px;
 }
 
-#introtext{
-    margin: 2px;
-    float: left;
-    width: 50%;
-    
+#introtext {
+  margin: 0;
 }
 
-.inputmessage{
-    height: 100px;
-    width: 500px;
+.inputmessage {
+  height: 100px;
+  width: 500px;
 }
 
-.submitbutton{
-    width: 80px;
-    height: 25px;
+.submitbutton {
+  width: 80px;
+  height: 25px;
 }
 
-::placeholder{
-    font-size: 12.5px;
-    color: #f0edcfcc;
+::placeholder {
+  font-size: 12.5px;
+  color: #f0edcfcc;
 }
 
-.inputmessage::placeholder{
-    position: absolute;
-    top: 2.5px;
-    left: 3.5px;
+.inputmessage::placeholder {
+  position: absolute;
+  top: 2.5px;
+  left: 3.5px;
 }
 
 label {
-    font-size: 25px;
-    color: #f0edcf;
-    font-family: Oxanium;
+  font-size: 25px;
+  color: #f0edcf;
+  font-family: Oxanium;
 }
 
 input {
-    width: 200px;
-    height: 15px;
-    border-color: #f0edcf;
-    color: #f0edcf;
-    font-family: monospace;
+  width: 200px;
+  height: 15px;
+  border-color: #f0edcf;
+  color: #f0edcf;
+  font-family: monospace;
 }
 
 .topnav {
@@ -145,7 +142,7 @@ input {
 .topnav a {
   text-decoration: none;
   font-family: "Oxanium";
-  font-size: large;
+  font-size: 30px;
   color: #16161a;
   background-color: #f0edcf;
   padding: 2px 5px 2px 5px;
@@ -154,18 +151,18 @@ input {
   border-radius: 10px;
 }
 
-.topnav :hover{
-    border: solid 3.5px #B05B0B;
+.topnav :hover {
+  border: solid 3.5px #b05b0b;
 }
 
-.topnav :active{
-    border: solid 2.5px #60c1f5;
+.topnav :active {
+  border: solid 2.5px #60c1f5;
 }
 
-.topnav{
-    position: sticky;
-    top: 0;
-    border-bottom: solid #0b60b0;
+.topnav {
+  position: sticky;
+  top: 0;
+  border-bottom: solid #0b60b0;
 }
 
 .bottomnav {
@@ -177,18 +174,39 @@ input {
 .bottomnav a {
   text-decoration: none;
   margin: 5px;
+  height: 30px;
 }
 
 #portrait {
-  height: 350px;
-  flex: 1;
-  margin-right: 20px;
+  width: 300px;
+  margin-right: 40px;
 }
 
-.containter {
+.container {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+}
+
+.squish {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.topspace {
+  margin-top: 60px;
+}
+
+.bottomspace {
+  margin-bottom: 60px;
+}
+
+#infinityimg {
+  width: 100%;
+}
+
+.image {
+  max-width: 100%;
 }
 
 h1,
@@ -202,4 +220,44 @@ h6 {
 
 p {
   font-family: "Trispace";
+}
+
+@media screen and (max-width: 843px) {
+  #portrait {
+    width: 200px;
+  }
+
+  .squish {
+    margin: 0 20px;
+  }
+
+  .topspace {
+    margin-top: 50px;
+  }
+
+  .title h1 {
+    font-size: 50px;
+    background: none;
+    margin: 0px;
+  }
+
+  #subtitle {
+    font-size: 25px;
+  }
+
+  .body p {
+    font-size: 22px;
+  }
+
+  .topnav a {
+    font-size: 20px;
+  }
+
+  .body h2 {
+    font-size: 35px;
+  }
+
+  #infinityimg {
+    width: 500px;
+  }
 }
