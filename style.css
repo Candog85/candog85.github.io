@@ -24,7 +24,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("images/youtube-video-gif.gif");
-  padding: 50px;
+  padding: 5vw;
   margin: 0;
   border-bottom: solid #0b60b0;
   text-align: center;
@@ -32,13 +32,13 @@ body {
 
 .title h1 {
   color: #f0edcf;
-  font-size: 90px;
+  font-size: 8vw;
   background: none;
   margin: 0px;
 }
 
 #subtitle {
-  font-size: 40px;
+  font-size: 3.75vw;
 }
 
 .body {
@@ -48,7 +48,7 @@ body {
 .body h2 {
   margin: 30px 0px;
   width: auto;
-  font-size: 50px;
+  font-size: 3vw;
   color: #f0edcf;
 }
 
@@ -62,7 +62,7 @@ body {
 
 .body p {
   color: #60c1f5;
-  font-size: 30px;
+  font-size: 2.5vw;
   margin: 60px 0px;
 }
 
@@ -136,17 +136,17 @@ input {
 .topnav {
   text-align: center;
   background: black;
-  padding: 10px;
+  padding: 10px 1vw;
 }
 
 .topnav a {
   text-decoration: none;
   font-family: "Oxanium";
-  font-size: 30px;
+  font-size: 2.5vw;
   color: #16161a;
   background-color: #f0edcf;
   padding: 2px 5px 2px 5px;
-  margin: 2px;
+  margin: .25vw;
   border: 2.5px solid #0b60b0;
   border-radius: 10px;
 }
@@ -178,7 +178,7 @@ input {
 }
 
 #portrait {
-  width: 300px;
+  width: 30vw;
   margin-right: 40px;
 }
 
@@ -189,8 +189,12 @@ input {
 }
 
 .squish {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.squishleft {
   margin-left: 200px;
-  margin-right: 200px;
 }
 
 .topspace {
@@ -207,6 +211,10 @@ input {
 
 .image {
   max-width: 100%;
+}
+
+.sunpower {
+  width: 75vw;
 }
 
 h1,
@@ -235,29 +243,23 @@ p {
     margin-top: 50px;
   }
 
-  .title h1 {
-    font-size: 50px;
-    background: none;
-    margin: 0px;
-  }
-
-  #subtitle {
-    font-size: 25px;
-  }
-
   .body p {
-    font-size: 22px;
+    font-size: 3vw;
   }
 
   .topnav a {
-    font-size: 20px;
+    font-size: 4vw;
   }
 
   .body h2 {
-    font-size: 35px;
+    font-size: 5vw;
   }
 
   #infinityimg {
     width: 500px;
+  }
+
+  .sunpower {
+    width: 90vw;
   }
 }
