@@ -32,13 +32,13 @@ body {
 
 .title h1 {
   color: #f0edcf;
-  font-size: 8vw;
+  font-size: 75px;
   background: none;
   margin: 0px;
 }
 
 #subtitle {
-  font-size: 3.75vw;
+  font-size: 40px;
 }
 
 .body {
@@ -62,7 +62,7 @@ body {
 
 .body p {
   color: #60c1f5;
-  font-size: 2.5vw;
+  font-size: 30px;
   margin: 60px 0px;
 }
 
@@ -142,7 +142,7 @@ input {
 .topnav a {
   text-decoration: none;
   font-family: "Oxanium";
-  font-size: 2.5vw;
+  font-size: 30px;
   color: #16161a;
   background-color: #f0edcf;
   padding: 2px 5px 2px 5px;
@@ -178,8 +178,9 @@ input {
 }
 
 #portrait {
-  width: 30vw;
+  width: 350px;
   margin-right: 40px;
+  border: 5px solid #0b60b0;
 }
 
 .container {
@@ -214,7 +215,7 @@ input {
 }
 
 .sunpower {
-  width: 75vw;
+  width: 7;
 }
 
 h1,
@@ -231,8 +232,26 @@ p {
 }
 
 @media screen and (max-width: 843px) {
+  
+}
+
+@media screen and (max-width: 843px) {
   #portrait {
-    width: 200px;
+    width: 250px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .title h1{
+    font-size: 10vw;
+  }
+
+  #subtitle{
+    font-size: 5.5vw;
+  }
+
+  #introtext{
+    margin-bottom: 50px;
   }
 
   .squish {
@@ -244,7 +263,7 @@ p {
   }
 
   .body p {
-    font-size: 3vw;
+    font-size: 20px;
   }
 
   .topnav a {
@@ -252,7 +271,7 @@ p {
   }
 
   .body h2 {
-    font-size: 5vw;
+    font-size: 40px;
   }
 
   #infinityimg {
@@ -261,5 +280,9 @@ p {
 
   .sunpower {
     width: 90vw;
+  }
+
+  #mobile{
+    flex-direction: column;
   }
 }
