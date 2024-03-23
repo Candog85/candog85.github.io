@@ -66,26 +66,6 @@ body {
   margin: 60px 0px;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.right {
-  float: right;
-}
-
-.left {
-  left: 0;
-}
-
-.marginless {
-  margin: 0;
-}
-
 .formdiv:first-of-type {
   margin-top: 60px;
 }
@@ -210,8 +190,8 @@ input {
   width: 100%;
 }
 
-.image {
-  max-width: 100%;
+#susimage{
+  width: 100%;
 }
 
 .sunpower {
@@ -272,10 +252,6 @@ p {
 
   .body h2 {
     font-size: 40px;
-  }
-
-  #infinityimg {
-    width: 500px;
   }
 
   .sunpower {
