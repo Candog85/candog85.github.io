@@ -194,6 +194,11 @@ input {
   width: 100%;
 }
 
+#certimage{
+  width: 300px;
+  height: 300px;
+}
+
 .sunpower {
   width: 7;
 }
